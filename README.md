@@ -5,8 +5,8 @@
 \</p>
 
 \<p align="center">
-&#x20; \*\*An intelligent water monitoring and automatic motor control system\*\*
-&#x20; \<br/>
+&#x20; \<strong>An intelligent water monitoring and automatic motor control system\</strong>
+&#x20; \<br>
 &#x20; Monitor water levels, prevent overflow, manage water usage, and receive alerts through a console application or interactive web dashboard.
 \</p>
 
@@ -22,14 +22,12 @@
 
 ## 🚀 Project Overview
 
-The **Smart Water Tank System** is designed to monitor water levels and control a water motor automatically based on predefined water-level thresholds.
+The **Smart Water Tank System** monitors water levels and controls a water motor automatically using predefined water-level thresholds.
 
 It provides two implementations:
 
 1. **Python Console Application** – Simulates sensor readings, controls the motor, manages water usage, and records history.
 2. **Web Dashboard** – Displays a visual water tank, motor status, water-level alerts, and interactive controls.
-
-The system also includes overflow protection, water shortage prevention, and timestamped activity records.
 
 ## ✨ Key Features
 
@@ -43,7 +41,7 @@ The system also includes overflow protection, water shortage prevention, and tim
 | 📊 Usage History           | Records water consumption with timestamps         |
 | 📝 Fill History            | Records tank filling activities                   |
 | 🔔 Alert System            | Displays different water-level warning conditions |
-| 📱 Responsive Dashboard    | Dashboard adapts to desktop and mobile screens    |
+| 📱 Responsive Dashboard    | Supports desktop and mobile screens               |
 | 🔄 Sensor Reset            | Generates a new simulated sensor reading          |
 
 ## 🧠 System Architecture
@@ -65,8 +63,6 @@ flowchart TD
 
 ## ⚙️ Automatic Motor Control
 
-The motor operates according to two threshold values:
-
 | Water Level | Motor Status              | Action            |
 | ----------- | ------------------------- | ----------------- |
 | 0% – 30%    | ON                        | Start filling     |
@@ -84,8 +80,6 @@ elif level >= HIGH:
 
 ## 🚨 Water-Level Alert System
 
-The system identifies seven water-level conditions:
-
 | Water Level | Alert        |
 | ----------- | ------------ |
 | 0% – 5%     | 🔴 Critical  |
@@ -98,44 +92,24 @@ The system identifies seven water-level conditions:
 
 ## 🖥️ Project Modules
 
-### 1. Water Level Monitoring
-
-Reads the simulated sensor value and displays the current tank level.
-
-### 2. Automatic Motor Control
-
-Controls the motor using LOW and HIGH water-level thresholds.
-
-### 3. Water Usage Management
-
-Allows users to consume water while preventing shortages.
-
-### 4. Tank Filling Management
-
-Allows filling only when the motor is ON and prevents overflow.
-
-### 5. History Management
-
-Maintains separate usage and filling records with timestamps.
-
-### 6. Alert Management
-
-Displays alerts based on the current water level.
-
-### 7. Web Dashboard
-
-Provides a visual tank indicator, live clock, motor status, usage statistics, and interactive controls.
+1. **Water Level Monitoring** – Reads and displays the simulated sensor value.
+2. **Automatic Motor Control** – Controls the motor using LOW and HIGH thresholds.
+3. **Water Usage Management** – Prevents usage beyond available water.
+4. **Tank Filling Management** – Allows filling only when the motor is ON and prevents overflow.
+5. **History Management** – Records water usage and filling activities with timestamps.
+6. **Alert Management** – Displays alerts based on the current water level.
+7. **Web Dashboard** – Provides a visual tank indicator, live clock, motor status, and interactive controls.
 
 ## 🛠️ Technologies Used
 
-| Technology    | Purpose                                 |
-| ------------- | --------------------------------------- |
-| Python        | Console application and system logic    |
-| HTML5         | Dashboard structure                     |
-| CSS3          | Styling and responsive layout           |
-| JavaScript    | Dashboard interaction and control logic |
-| Random Module | Simulated sensor readings               |
-| DateTime      | Timestamp management                    |
+| Technology    | Purpose                              |
+| ------------- | ------------------------------------ |
+| Python        | Console application and system logic |
+| HTML5         | Dashboard structure                  |
+| CSS3          | Styling and responsive layout        |
+| JavaScript    | Dashboard interaction                |
+| Random Module | Simulated sensor readings            |
+| DateTime      | Timestamp management                 |
 
 ## 📂 Project Structure
 
@@ -143,29 +117,27 @@ Provides a visual tank indicator, live clock, motor status, usage statistics, an
 Smart-Water-Tank-System/
 │
 ├── smart_water_tank.py
-│
 ├── index.html
-│
 └── README.md
 ```
 
 ## ▶️ How to Run the Python Application
 
-**Step 1:** Install Python 3.x.
+**1. Install Python 3.x.**
 
-**Step 2:** Clone the repository.
+**2. Clone the repository.**
 
 ```bash
 git clone https://github.com/rguganrajkumar-coder/smart-water-tank-system.git
 ```
 
-**Step 3:** Open the project folder.
+**3. Navigate to the project folder.**
 
 ```bash
 cd smart-water-tank-system
 ```
 
-**Step 4:** Run the application.
+**4. Run the application.**
 
 ```bash
 python smart_water_tank.py
@@ -178,7 +150,7 @@ python smart_water_tank.py
 3. Open it in any modern web browser.
 4. Use the dashboard controls to monitor water levels, use water, and fill the tank.
 
-> **Note:** The Python console application and web dashboard are separate implementations. Both simulate sensor readings locally; the dashboard is not connected to the Python application or a physical water sensor.
+> **Note:** The Python console application and web dashboard are separate implementations. Both simulate sensor readings locally. The dashboard is not connected to the Python application or a physical water sensor.
 
 ## 🔮 Future Enhancements
 
@@ -212,6 +184,6 @@ K. Ramakrishnan College of Engineering (KRCE)
 
 ---
 
-\<p align="center">   \*\*💧 Smart Monitoring | Efficient Water Management | Automated Control\*\*   \<br/>   If you find this project interesting, consider giving it a ⭐ on GitHub! \</p>
+\<p align="center">   \<strong>💧 Smart Monitoring | Efficient Water Management | Automated Control\</strong>   \<br>   If you find this project interesting, consider giving it a ⭐ on GitHub! \</p>
 
 \<p align="center">   \<img src="[https://capsule-render.vercel.app/api?type=waving&color=0:00B4D8,100:0077B6&height=100&section=footer](https://capsule-render.vercel.app/api?type=waving\&color=0:00B4D8,100:0077B6\&height=100\&section=footer)" width="100%" /> \</p>
